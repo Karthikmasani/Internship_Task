@@ -1,0 +1,156 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Nunito+Sans:ital,wght@1,300&family=Poppins:wght@300&display=swap');
+*{
+    padding:0;
+    margin:0;
+    font-family: 'Poppins', sans-serif;
+
+}
+/* nav ul{
+    display: flex;
+    list-style-type:none;
+} */
+
+
+
+nav ul   a{
+    text-decoration: none;
+    padding:0.3rem 1.3rem;
+    font-size: 18px;
+    font-weight:bold;
+    color:#519259;
+    position: relative;
+    
+}
+.nav-link{
+    color:green;
+    
+}
+
+.banners_img{
+    height:90vh;
+    width:100vw;
+}
+img{
+    height: 100%;
+    width:100%,
+
+}
+
+
+.banner_main {
+    background-image: url("./food1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    height: 90vh;
+    background-position: center;
+   }
+  /* .banner_img {
+    width: 98.9vw;
+    height: 100vh;
+    opacity: 0.7;
+  } */
+  .banner_content {
+    width: 700px;
+    height: 275px;
+    position: absolute;
+    top: 30%;
+    left: 15%;
+    z-index: 1;
+  }
+  .banner_title {
+    font-size: 45px;
+    font-family:normal normal bold 89px/133px Poppins;
+    font-weight: 900;
+  }
+
+  .banner_description {
+    font-size: 1.2rem;
+    width: 350px;
+    font-weight: 700;
+    font-family: poppins;
+  }
+.get_started_btn {
+    background-color: #278233;
+    padding: 10px 30px;
+    border: none;
+    font-size: 1.3rem;
+    color: white;
+    border-radius: 5px;
+    font-family: poppins;
+}
+.banner_content p{
+    font-size: 20px;
+    color:#121412;
+    font-weight:bold;
+}
+.header img{
+    width:160px;
+    height:70px;
+
+    
+}
+
+
+
+.content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.content img{
+    width:400px;
+    height:400px;
+    padding:2rem;
+}
+h2{
+    font-size:30px;
+    font-weight: 900;
+    margin-top: 20px;
+    margin-left: 50px;
+}
+.yellow{
+    display:grid
+}
+
+.footer_section{
+    display:flex;
+    justify-content: center;
+    
+}
+
+
+.second_row{
+    display:flex;
+    flex-direction:row ;
+    justify-content: center;
+}
+
+.address_section img{
+    width:180px;
+    height:100px;
+
+}
+
+
+.second_row{
+    background-color: #F4EEA9;
+    width:50vw;
+    padding-top: 20%;
+    
+}
+.intro{
+    display: flex;
+    justify-content: center,flex-end;
+    align-items: center;
+
+}
+.content1 p{
+    color:#121412;
+    font-weight:bold;
+}
+
+
